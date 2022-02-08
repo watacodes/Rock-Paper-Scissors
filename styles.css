@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+    background: url(./images/white.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+body {
+    text-align: center;
+}
+
+.game-title {
+    padding: 40px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    max-width: 100%;
+}
+
+#btn1, #btn2, #btn3 {
+    font-family: 'Times New Roman';
+    display: flex;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 800;
+    background: whitesmoke;
+    border-style: none;
+    border-radius: 4px;
+    letter-spacing: 2px;    
+    margin: 10px;
+}
+
+
+
+#result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerwin,
+.computerwin,
+.round-result,
+.game-result {
+    margin-top: 20px;
+}
+
+.playerwin,
+.computerwin,
+.round-result {
+    font-weight: 700;
+}
+
+.game-result {
+    margin-bottom: 20px;
+}
